@@ -1,12 +1,15 @@
 # 航海日誌 ユーザースクリプトプラグイン
 航海日誌 ユーザースクリプトプラグインは航海日誌(logbook-kai)にユーザースクリプト機能を追加するプラグインです。
 
+![screen1](img/screen1.png)
+
 ## ユーザースクリプトとは
 サーバーから送られてくるデータに対して任意の処理を行うことが出来ます。通信内容を変更することは出来ません。 
 
 ## 仕様
  - スクリプト言語としてJavaScriptが標準でサポートされています。[Nashornユーザーズ・ガイド](https://docs.oracle.com/javase/jp/8/docs/technotes/guides/scripting/nashorn/toc.html)
  - スクリプトには引数を持たない``run``メソッドが定義されている必要があります。
+ - ``run``メソッドはAPIがキャプチャされた時に呼び出されます。
  - ``run``メソッド実行時に次のグローバル変数が定義されます。
    - ``uri`` 要求URI(``String``)
    - ``req`` 要求パラメーター(``Map<String,List<String>>``)
