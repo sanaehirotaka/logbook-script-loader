@@ -4,7 +4,11 @@
 ![screen1](img/screen1.png)
 
 ## ユーザースクリプトとは
-サーバーから送られてくるデータに対して任意の処理を行うことが出来ます。通信内容を変更することは出来ません。 
+サーバーから送られてくるデータに対して任意の処理を行うことが出来ます。通信内容を変更することは出来ません。
+
+## 使い方
+ * 航海日誌のpluginsフォルダに[ダウンロード](https://github.com/sanaehirotaka/logbook-script-loader/releases)したscript-loader.jarを置いて航海日誌を再起動してください
+ * 再起動後、[その他]メニューから[ユーザースクリプト]を選択することで利用出来ます。
 
 ## 仕様
  - スクリプト言語としてJavaScriptが標準でサポートされています。[Nashornユーザーズ・ガイド](https://docs.oracle.com/javase/jp/8/docs/technotes/guides/scripting/nashorn/toc.html)
